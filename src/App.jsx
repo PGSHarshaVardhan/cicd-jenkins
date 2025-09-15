@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+      <Router basename="/ecommerce">
       <div>
         <h1> CICD JENKINS DEMO</h1>
         <p> jenkins source code  uses git repo  and set branch /main   poll scm triggers option  * * * * * buid step add buid step <b> Windows batch command </b> <u>call npm install </u>  <u> call npm run dev</u> rmdir "C:\......tomcat9\webapps\jenkinsfrontdemo
@@ -20,6 +21,7 @@ function App() {
   start tomcat 9
   </p>
       </div>
+        </Router>
       
     </>
   );
